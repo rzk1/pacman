@@ -5,11 +5,11 @@
 #SBATCH --mem=MaxMemPerNode
 #SBATCH --account=ctb-rzk
 #SBATCH --job-name=pacman
-#SBATCH --error=pacman.stde
-#SBATCH --output=pacman.stdo
-##SBATCH --nodelist=node0xx
+#SBATCH --error=__pacman.stde
+#SBATCH --output=__pacman.stdo
+#--#SBATCH --nodelist=blg8427
 
-if [ -z ${SLURM_SUBMIT_DIR+x}]; then
+if [ -z ${SLURM_SUBMIT_DIR+x} ]; then
  homeDir=`pwd`
 else
  module load python/2.7.14

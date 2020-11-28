@@ -10,7 +10,7 @@ OR
 
 sbatch autograder.sh
 
-* The code can be run on beluga IF python/2.7.14 module is loaded and -q game flag is specified. The code cannot be run interactively on beluga.
+* The code can be run on beluga IF python/2.7.14 module is loaded and IF the interactive mode is OFF (no keyboard control).
 
 --- Competition:
 
